@@ -8,8 +8,8 @@ const Navbar = () => {
   return (
 
     <div className="sticky top-0 flex cursor-pointer font-bold font-sans font-serif bg-[lightgreen] p-5 list-none gap-4 items-center justify-center">
-        <li onClick={()=>navigate("/")}>Home</li>
-        <li onClick={()=>navigate("/add")}>AddFruit</li>
+        <li onClick={()=>navigate("/")} className=' hover:bg-[blue] hover:text-white hover:p-1'>Home</li>
+        <li onClick={()=>navigate("/add")} className=' hover:bg-[blue] hover:text-white hover:p-1'>AddFruit</li>
     </div>
 
   )
